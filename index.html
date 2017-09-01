@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,12 +10,18 @@
     <link rel="stylesheet" href="/node_modules/font-awesome/css/font-awesome.css">
     <link rel="stylesheet" href="/src/less/index.css">
 </head>
+
 <body ng-app="app">
-    <ngl-aside></ngl-aside>
+    <main ng-view></main>
+    <ngl-login></ngl-login>
     <script src="/node_modules/jquery/dist/jquery.js"></script>
     <script src="/node_modules/angular/angular.js"></script>
     <script src="/node_modules/angular-route/angular-route.js"></script>
     <script src="/src/js/main.js"></script>
     <script src="/src/components/common/aside/aside.js"></script>
+    <script src="/src/components/common/header/header.js"></script>
+    <script src="/src/components/index/index.js"></script>
+    <script src="/src/components/login/login.js"></script>
 </body>
+
 </html>
